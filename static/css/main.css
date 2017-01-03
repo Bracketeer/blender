@@ -1,0 +1,12 @@
+table, tr, td{
+	border: 1px solid #c7c7c7;
+	padding: 20px;
+	font-size: 18px;
+	background: red;
+}
+td{
+	border: 1px solid #c7c7c7;
+}
+.sidebar{
+	background: #123456;
+}
