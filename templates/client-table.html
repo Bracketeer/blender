@@ -1,0 +1,26 @@
+{% extends 'admin/index.html' %}
+{% block content %}
+<table class="table table-hover table-responsive">
+	<tbody class="table-striped">
+
+	<tr class="table-hover">
+		<th>ID</th>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Blog</th>
+
+	</tr>
+	{% for client in client %}
+		<tr>
+			<td>{{client.id}}</td>
+			<td>
+				<a href="#">{{client.name}}</a>
+			</td>
+			<td>{{client.email}}</td>
+			<td><a href="{{client.blog}}">{{client.blog}}</a></td>
+		</tr>
+	{% endfor %}
+</tbody>
+</table>
+
+{% endblock %}

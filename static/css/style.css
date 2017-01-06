@@ -1,0 +1,63 @@
+body{
+	background: rgba(122,154,159,1);
+	background: -moz-linear-gradient(left, rgba(122,154,159,1) 0%, rgba(152,188,195,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122,154,159,1)), color-stop(100%, rgba(152,188,195,1)));
+	background: -webkit-linear-gradient(left, rgba(122,154,159,1) 0%, rgba(152,188,195,1) 100%);
+	background: -o-linear-gradient(left, rgba(122,154,159,1) 0%, rgba(152,188,195,1) 100%);
+	background: -ms-linear-gradient(left, rgba(122,154,159,1) 0%, rgba(152,188,195,1) 100%);
+	background: linear-gradient(to right, rgba(122,154,159,1) 0%, rgba(152,188,195,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a9a9f', endColorstr='#98bcc3', GradientType=1 );
+}
+.sidebar{
+	background: #123456;
+}
+.navbar-default{
+	background: #fff;
+	border-radius: 0;
+}
+input.form-control{
+	margin-bottom: 10px;
+	padding: 25px;
+	background: rgba(255,255,255,.7);
+	border-radius: 0;
+}
+input.form-control:active{
+	outline: -webkit-focus-ring-color auto 0px;
+}
+.btn-primary{
+	background: rgba(81, 104, 107, 1);
+	border: 1px solid rgba(107, 136, 140, 1);
+	border-radius: 0;
+	padding: 15px;
+}
+.btn-primary:hover, .btn-primary:active:focus{
+	background: rgba(122,154,159,1);
+	border: 1px solid rgba(107, 136, 140, 1);
+	box-shadow: inset 2px 2px rgba(107, 136, 140, 1);
+	outline: -webkit-focus-ring-color auto 0px;
+}
+.btn-primary:active{
+	background: rgba(122,154,159,1);
+	border: 1px solid rgba(107, 136, 140, 1);
+}
+.btn-primary:focus{
+	background: rgba(122,154,159,1);
+	border: 1px solid rgba(107, 136, 140, 1);
+}
+.checkbox{
+	padding-left: 20px;
+}
+.form-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin: auto;
+	width: 100%;
+	height:80vh;
+	overflow: hidden;
+	max-width: 600px;
+}
+.form-signin{
+	width: 100%;
+}
